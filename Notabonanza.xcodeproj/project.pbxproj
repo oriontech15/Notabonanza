@@ -8,11 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		DB9952AE1D861B04008ED5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952AD1D861B04008ED5E9 /* AppDelegate.swift */; };
-		DB9952B01D861B04008ED5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952AF1D861B04008ED5E9 /* ViewController.swift */; };
 		DB9952B31D861B04008ED5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9952B11D861B04008ED5E9 /* Main.storyboard */; };
 		DB9952B51D861B04008ED5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9952B41D861B04008ED5E9 /* Assets.xcassets */; };
 		DB9952B81D861B04008ED5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9952B61D861B04008ED5E9 /* LaunchScreen.storyboard */; };
 		DB9952C31D861B04008ED5E9 /* NotabonanzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952C21D861B04008ED5E9 /* NotabonanzaTests.swift */; };
+		DB9952CE1D861C23008ED5E9 /* CheckListListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952CD1D861C23008ED5E9 /* CheckListListViewController.swift */; };
+		DB9952D01D861C2E008ED5E9 /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952CF1D861C2E008ED5E9 /* CheckListViewController.swift */; };
+		DB9952D21D861C3C008ED5E9 /* SocialNotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952D11D861C3C008ED5E9 /* SocialNotesListViewController.swift */; };
+		DB9952D41D861C45008ED5E9 /* SocialNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952D31D861C45008ED5E9 /* SocialNoteViewController.swift */; };
+		DB9952D61D861C51008ED5E9 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952D51D861C51008ED5E9 /* ReminderListViewController.swift */; };
+		DB9952D81D861C59008ED5E9 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952D71D861C59008ED5E9 /* ReminderViewController.swift */; };
+		DB9952DA1D861C71008ED5E9 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952D91D861C71008ED5E9 /* TasksViewController.swift */; };
+		DB9952DC1D861C78008ED5E9 /* IdeaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952DB1D861C78008ED5E9 /* IdeaListViewController.swift */; };
+		DB9952DE1D861C81008ED5E9 /* IdeaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952DD1D861C81008ED5E9 /* IdeaViewController.swift */; };
+		DB9952E01D861C8C008ED5E9 /* VoiceNotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952DF1D861C8C008ED5E9 /* VoiceNotesListViewController.swift */; };
+		DB9952E21D861C98008ED5E9 /* VoiceNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952E11D861C98008ED5E9 /* VoiceNoteViewController.swift */; };
+		DB9952E41D861CBC008ED5E9 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952E31D861CBC008ED5E9 /* CustomImageView.swift */; };
+		DB9952E61D861CCC008ED5E9 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952E51D861CCC008ED5E9 /* TaskView.swift */; };
+		DB9952E81D861CD6008ED5E9 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952E71D861CD6008ED5E9 /* ReminderView.swift */; };
+		DB9952EA1D861CDF008ED5E9 /* IdeaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952E91D861CDF008ED5E9 /* IdeaView.swift */; };
+		DB9952EC1D861D14008ED5E9 /* CheckMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952EB1D861D14008ED5E9 /* CheckMarkButton.swift */; };
+		DB9952EE1D861D23008ED5E9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952ED1D861D23008ED5E9 /* CustomButton.swift */; };
+		DB9952F01D861D2C008ED5E9 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952EF1D861D2C008ED5E9 /* CreateButton.swift */; };
+		DB9952F21D861D34008ED5E9 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952F11D861D34008ED5E9 /* ShareButton.swift */; };
+		DB9952F41D861D45008ED5E9 /* NotabonanzaTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952F31D861D45008ED5E9 /* NotabonanzaTypeButton.swift */; };
+		DB9952F61D861D57008ED5E9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952F51D861D57008ED5E9 /* AlertView.swift */; };
+		DB9952F81D861D74008ED5E9 /* ListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952F71D861D74008ED5E9 /* ListItemTableViewCell.swift */; };
+		DB9952FA1D861D82008ED5E9 /* IdeaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952F91D861D82008ED5E9 /* IdeaTableViewCell.swift */; };
+		DB9952FC1D861D8A008ED5E9 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952FB1D861D8A008ED5E9 /* MessageTableViewCell.swift */; };
+		DB9952FE1D861D9B008ED5E9 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952FD1D861D9B008ED5E9 /* TaskTableViewCell.swift */; };
+		DB9953001D861DA2008ED5E9 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9952FF1D861DA2008ED5E9 /* ReminderTableViewCell.swift */; };
+		DB9953021D861DB4008ED5E9 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953011D861DB4008ED5E9 /* UserTableViewCell.swift */; };
+		DB9953041D861DC4008ED5E9 /* UserListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953031D861DC4008ED5E9 /* UserListTableViewController.swift */; };
+		DB9953061D861DDA008ED5E9 /* VoiceNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953051D861DDA008ED5E9 /* VoiceNoteTableViewCell.swift */; };
+		DB9953081D861DE8008ED5E9 /* CheckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953071D861DE8008ED5E9 /* CheckListTableViewCell.swift */; };
+		DB99530A1D861E0D008ED5E9 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953091D861E0D008ED5E9 /* FirebaseController.swift */; };
+		DB99530C1D861E15008ED5E9 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99530B1D861E15008ED5E9 /* ImageController.swift */; };
+		DB99530E1D861E1E008ED5E9 /* SocialNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99530D1D861E1E008ED5E9 /* SocialNoteController.swift */; };
+		DB9953101D861E25008ED5E9 /* VoiceNoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99530F1D861E25008ED5E9 /* VoiceNoteController.swift */; };
+		DB9953121D861E2C008ED5E9 /* IdeaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953111D861E2C008ED5E9 /* IdeaController.swift */; };
+		DB9953141D861E32008ED5E9 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953131D861E32008ED5E9 /* MessageController.swift */; };
+		DB9953161D861E38008ED5E9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953151D861E38008ED5E9 /* UserController.swift */; };
+		DB9953181D861E3F008ED5E9 /* ReminderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953171D861E3F008ED5E9 /* ReminderController.swift */; };
+		DB99531A1D861E46008ED5E9 /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9953191D861E46008ED5E9 /* TaskController.swift */; };
+		DB99531C1D861E4D008ED5E9 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99531B1D861E4D008ED5E9 /* ListController.swift */; };
+		DB99531E1D861E57008ED5E9 /* TypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99531D1D861E57008ED5E9 /* TypeExtensions.swift */; };
+		DB9953201D861E60008ED5E9 /* AppearanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB99531F1D861E60008ED5E9 /* AppearanceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +69,6 @@
 /* Begin PBXFileReference section */
 		DB9952AA1D861B04008ED5E9 /* Notabonanza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notabonanza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9952AD1D861B04008ED5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB9952AF1D861B04008ED5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB9952B21D861B04008ED5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9952B41D861B04008ED5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9952B71D861B04008ED5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +76,48 @@
 		DB9952BE1D861B04008ED5E9 /* NotabonanzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotabonanzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9952C21D861B04008ED5E9 /* NotabonanzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotabonanzaTests.swift; sourceTree = "<group>"; };
 		DB9952C41D861B04008ED5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9952CD1D861C23008ED5E9 /* CheckListListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListListViewController.swift; sourceTree = "<group>"; };
+		DB9952CF1D861C2E008ED5E9 /* CheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		DB9952D11D861C3C008ED5E9 /* SocialNotesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNotesListViewController.swift; sourceTree = "<group>"; };
+		DB9952D31D861C45008ED5E9 /* SocialNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNoteViewController.swift; sourceTree = "<group>"; };
+		DB9952D51D861C51008ED5E9 /* ReminderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderListViewController.swift; sourceTree = "<group>"; };
+		DB9952D71D861C59008ED5E9 /* ReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		DB9952D91D861C71008ED5E9 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		DB9952DB1D861C78008ED5E9 /* IdeaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaListViewController.swift; sourceTree = "<group>"; };
+		DB9952DD1D861C81008ED5E9 /* IdeaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaViewController.swift; sourceTree = "<group>"; };
+		DB9952DF1D861C8C008ED5E9 /* VoiceNotesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceNotesListViewController.swift; sourceTree = "<group>"; };
+		DB9952E11D861C98008ED5E9 /* VoiceNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceNoteViewController.swift; sourceTree = "<group>"; };
+		DB9952E31D861CBC008ED5E9 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		DB9952E51D861CCC008ED5E9 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		DB9952E71D861CD6008ED5E9 /* ReminderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		DB9952E91D861CDF008ED5E9 /* IdeaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaView.swift; sourceTree = "<group>"; };
+		DB9952EB1D861D14008ED5E9 /* CheckMarkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckMarkButton.swift; sourceTree = "<group>"; };
+		DB9952ED1D861D23008ED5E9 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DB9952EF1D861D2C008ED5E9 /* CreateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		DB9952F11D861D34008ED5E9 /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		DB9952F31D861D45008ED5E9 /* NotabonanzaTypeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotabonanzaTypeButton.swift; sourceTree = "<group>"; };
+		DB9952F51D861D57008ED5E9 /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DB9952F71D861D74008ED5E9 /* ListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemTableViewCell.swift; sourceTree = "<group>"; };
+		DB9952F91D861D82008ED5E9 /* IdeaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaTableViewCell.swift; sourceTree = "<group>"; };
+		DB9952FB1D861D8A008ED5E9 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		DB9952FD1D861D9B008ED5E9 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		DB9952FF1D861DA2008ED5E9 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		DB9953011D861DB4008ED5E9 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		DB9953031D861DC4008ED5E9 /* UserListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListTableViewController.swift; sourceTree = "<group>"; };
+		DB9953051D861DDA008ED5E9 /* VoiceNoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceNoteTableViewCell.swift; sourceTree = "<group>"; };
+		DB9953071D861DE8008ED5E9 /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
+		DB9953091D861E0D008ED5E9 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		DB99530B1D861E15008ED5E9 /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		DB99530D1D861E1E008ED5E9 /* SocialNoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNoteController.swift; sourceTree = "<group>"; };
+		DB99530F1D861E25008ED5E9 /* VoiceNoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceNoteController.swift; sourceTree = "<group>"; };
+		DB9953111D861E2C008ED5E9 /* IdeaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeaController.swift; sourceTree = "<group>"; };
+		DB9953131D861E32008ED5E9 /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		DB9953151D861E38008ED5E9 /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		DB9953171D861E3F008ED5E9 /* ReminderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderController.swift; sourceTree = "<group>"; };
+		DB9953191D861E46008ED5E9 /* TaskController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
+		DB99531B1D861E4D008ED5E9 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		DB99531D1D861E57008ED5E9 /* TypeExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeExtensions.swift; sourceTree = "<group>"; };
+		DB99531F1D861E60008ED5E9 /* AppearanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +159,11 @@
 		DB9952AC1D861B04008ED5E9 /* Notabonanza */ = {
 			isa = PBXGroup;
 			children = (
-				DB9952AD1D861B04008ED5E9 /* AppDelegate.swift */,
-				DB9952AF1D861B04008ED5E9 /* ViewController.swift */,
-				DB9952B11D861B04008ED5E9 /* Main.storyboard */,
-				DB9952B41D861B04008ED5E9 /* Assets.xcassets */,
-				DB9952B61D861B04008ED5E9 /* LaunchScreen.storyboard */,
-				DB9952B91D861B04008ED5E9 /* Info.plist */,
+				DB9953211D861E7F008ED5E9 /* Core */,
+				DB9953241D861EC6008ED5E9 /* View Controllers */,
+				DB99532B1D861F5A008ED5E9 /* Views */,
+				DB9953291D861F49008ED5E9 /* Controllers */,
+				DB99532A1D861F51008ED5E9 /* Extensions */,
 			);
 			path = Notabonanza;
 			sourceTree = "<group>";
@@ -94,6 +175,136 @@
 				DB9952C41D861B04008ED5E9 /* Info.plist */,
 			);
 			path = NotabonanzaTests;
+			sourceTree = "<group>";
+		};
+		DB9953211D861E7F008ED5E9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952AD1D861B04008ED5E9 /* AppDelegate.swift */,
+				DB9952B11D861B04008ED5E9 /* Main.storyboard */,
+				DB9952B41D861B04008ED5E9 /* Assets.xcassets */,
+				DB9952B61D861B04008ED5E9 /* LaunchScreen.storyboard */,
+				DB9952B91D861B04008ED5E9 /* Info.plist */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DB9953221D861E9F008ED5E9 /* List View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952CD1D861C23008ED5E9 /* CheckListListViewController.swift */,
+				DB9952D11D861C3C008ED5E9 /* SocialNotesListViewController.swift */,
+				DB9952D51D861C51008ED5E9 /* ReminderListViewController.swift */,
+				DB9952DB1D861C78008ED5E9 /* IdeaListViewController.swift */,
+				DB9952DF1D861C8C008ED5E9 /* VoiceNotesListViewController.swift */,
+				DB9953031D861DC4008ED5E9 /* UserListTableViewController.swift */,
+			);
+			name = "List View Controllers";
+			sourceTree = "<group>";
+		};
+		DB9953231D861EB2008ED5E9 /* Other View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952CF1D861C2E008ED5E9 /* CheckListViewController.swift */,
+				DB9952D31D861C45008ED5E9 /* SocialNoteViewController.swift */,
+				DB9952D71D861C59008ED5E9 /* ReminderViewController.swift */,
+				DB9952D91D861C71008ED5E9 /* TasksViewController.swift */,
+				DB9952DD1D861C81008ED5E9 /* IdeaViewController.swift */,
+				DB9952E11D861C98008ED5E9 /* VoiceNoteViewController.swift */,
+			);
+			name = "Other View Controllers";
+			sourceTree = "<group>";
+		};
+		DB9953241D861EC6008ED5E9 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9953221D861E9F008ED5E9 /* List View Controllers */,
+				DB9953231D861EB2008ED5E9 /* Other View Controllers */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DB9953251D861EF1008ED5E9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952E51D861CCC008ED5E9 /* TaskView.swift */,
+				DB9952E71D861CD6008ED5E9 /* ReminderView.swift */,
+				DB9952E91D861CDF008ED5E9 /* IdeaView.swift */,
+				DB9952F51D861D57008ED5E9 /* AlertView.swift */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		DB9953261D861F02008ED5E9 /* Custom Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952F31D861D45008ED5E9 /* NotabonanzaTypeButton.swift */,
+				DB9952EB1D861D14008ED5E9 /* CheckMarkButton.swift */,
+				DB9952ED1D861D23008ED5E9 /* CustomButton.swift */,
+				DB9952EF1D861D2C008ED5E9 /* CreateButton.swift */,
+				DB9952F11D861D34008ED5E9 /* ShareButton.swift */,
+			);
+			name = "Custom Buttons";
+			sourceTree = "<group>";
+		};
+		DB9953271D861F17008ED5E9 /* Custom TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952F71D861D74008ED5E9 /* ListItemTableViewCell.swift */,
+				DB9952F91D861D82008ED5E9 /* IdeaTableViewCell.swift */,
+				DB9952FB1D861D8A008ED5E9 /* MessageTableViewCell.swift */,
+				DB9952FD1D861D9B008ED5E9 /* TaskTableViewCell.swift */,
+				DB9952FF1D861DA2008ED5E9 /* ReminderTableViewCell.swift */,
+				DB9953011D861DB4008ED5E9 /* UserTableViewCell.swift */,
+				DB9953051D861DDA008ED5E9 /* VoiceNoteTableViewCell.swift */,
+				DB9953071D861DE8008ED5E9 /* CheckListTableViewCell.swift */,
+			);
+			name = "Custom TableView Cells";
+			sourceTree = "<group>";
+		};
+		DB9953281D861F37008ED5E9 /* Custom ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				DB9952E31D861CBC008ED5E9 /* CustomImageView.swift */,
+			);
+			name = "Custom ImageViews";
+			sourceTree = "<group>";
+		};
+		DB9953291D861F49008ED5E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB9953091D861E0D008ED5E9 /* FirebaseController.swift */,
+				DB99530B1D861E15008ED5E9 /* ImageController.swift */,
+				DB99530D1D861E1E008ED5E9 /* SocialNoteController.swift */,
+				DB99530F1D861E25008ED5E9 /* VoiceNoteController.swift */,
+				DB9953111D861E2C008ED5E9 /* IdeaController.swift */,
+				DB9953131D861E32008ED5E9 /* MessageController.swift */,
+				DB9953151D861E38008ED5E9 /* UserController.swift */,
+				DB9953171D861E3F008ED5E9 /* ReminderController.swift */,
+				DB9953191D861E46008ED5E9 /* TaskController.swift */,
+				DB99531B1D861E4D008ED5E9 /* ListController.swift */,
+				DB99531F1D861E60008ED5E9 /* AppearanceController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DB99532A1D861F51008ED5E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB99531D1D861E57008ED5E9 /* TypeExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DB99532B1D861F5A008ED5E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB9953281D861F37008ED5E9 /* Custom ImageViews */,
+				DB9953251D861EF1008ED5E9 /* Custom Views */,
+				DB9953261D861F02008ED5E9 /* Custom Buttons */,
+				DB9953271D861F17008ED5E9 /* Custom TableView Cells */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +412,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9952B01D861B04008ED5E9 /* ViewController.swift in Sources */,
+				DB99531E1D861E57008ED5E9 /* TypeExtensions.swift in Sources */,
+				DB9952F21D861D34008ED5E9 /* ShareButton.swift in Sources */,
+				DB9952CE1D861C23008ED5E9 /* CheckListListViewController.swift in Sources */,
+				DB9952F01D861D2C008ED5E9 /* CreateButton.swift in Sources */,
+				DB9952EE1D861D23008ED5E9 /* CustomButton.swift in Sources */,
+				DB9952D61D861C51008ED5E9 /* ReminderListViewController.swift in Sources */,
+				DB9952D01D861C2E008ED5E9 /* CheckListViewController.swift in Sources */,
+				DB9952E61D861CCC008ED5E9 /* TaskView.swift in Sources */,
+				DB9952FC1D861D8A008ED5E9 /* MessageTableViewCell.swift in Sources */,
+				DB9952FA1D861D82008ED5E9 /* IdeaTableViewCell.swift in Sources */,
+				DB9953141D861E32008ED5E9 /* MessageController.swift in Sources */,
+				DB9953121D861E2C008ED5E9 /* IdeaController.swift in Sources */,
+				DB99530A1D861E0D008ED5E9 /* FirebaseController.swift in Sources */,
+				DB9952E41D861CBC008ED5E9 /* CustomImageView.swift in Sources */,
+				DB9953181D861E3F008ED5E9 /* ReminderController.swift in Sources */,
+				DB9952FE1D861D9B008ED5E9 /* TaskTableViewCell.swift in Sources */,
+				DB9953041D861DC4008ED5E9 /* UserListTableViewController.swift in Sources */,
+				DB9952DE1D861C81008ED5E9 /* IdeaViewController.swift in Sources */,
+				DB9952D81D861C59008ED5E9 /* ReminderViewController.swift in Sources */,
+				DB9953161D861E38008ED5E9 /* UserController.swift in Sources */,
+				DB99531A1D861E46008ED5E9 /* TaskController.swift in Sources */,
+				DB9953061D861DDA008ED5E9 /* VoiceNoteTableViewCell.swift in Sources */,
+				DB9952D41D861C45008ED5E9 /* SocialNoteViewController.swift in Sources */,
+				DB9952E21D861C98008ED5E9 /* VoiceNoteViewController.swift in Sources */,
+				DB9952D21D861C3C008ED5E9 /* SocialNotesListViewController.swift in Sources */,
+				DB9952EA1D861CDF008ED5E9 /* IdeaView.swift in Sources */,
+				DB9953081D861DE8008ED5E9 /* CheckListTableViewCell.swift in Sources */,
+				DB9952F41D861D45008ED5E9 /* NotabonanzaTypeButton.swift in Sources */,
+				DB9952DC1D861C78008ED5E9 /* IdeaListViewController.swift in Sources */,
+				DB9953021D861DB4008ED5E9 /* UserTableViewCell.swift in Sources */,
+				DB9952EC1D861D14008ED5E9 /* CheckMarkButton.swift in Sources */,
+				DB9952F61D861D57008ED5E9 /* AlertView.swift in Sources */,
+				DB99530E1D861E1E008ED5E9 /* SocialNoteController.swift in Sources */,
+				DB9953101D861E25008ED5E9 /* VoiceNoteController.swift in Sources */,
 				DB9952AE1D861B04008ED5E9 /* AppDelegate.swift in Sources */,
+				DB9953001D861DA2008ED5E9 /* ReminderTableViewCell.swift in Sources */,
+				DB9952F81D861D74008ED5E9 /* ListItemTableViewCell.swift in Sources */,
+				DB9952DA1D861C71008ED5E9 /* TasksViewController.swift in Sources */,
+				DB99530C1D861E15008ED5E9 /* ImageController.swift in Sources */,
+				DB9952E81D861CD6008ED5E9 /* ReminderView.swift in Sources */,
+				DB9953201D861E60008ED5E9 /* AppearanceController.swift in Sources */,
+				DB9952E01D861C8C008ED5E9 /* VoiceNotesListViewController.swift in Sources */,
+				DB99531C1D861E4D008ED5E9 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
